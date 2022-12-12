@@ -1,0 +1,5 @@
+// This file is mainly used as configuration for Babel. We will need this in order for it to work in the application.
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
