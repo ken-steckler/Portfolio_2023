@@ -1,16 +1,28 @@
 import React, { useState } from "react";
 
-const App = () => {
-  const [counter, setCounter] = useState(0);
+// Importing Components
+import Navbar from "./components/Navbar";
+import Heading from "./components/Heading";
+import About from "./components/About";
+import Projects from "./components/Projects";
 
-  const increment = () => {
-    setCounter(counter + 1);
-  };
+// Importing CSS
+import "./App.css";
+
+// Importing icons
+import { MdCopyright } from "react-icons/md";
+
+const App = () => {
   return (
     <div>
-      This was made from Scratch! Also hello world!
-      <button onClick={increment}>Increment</button>
-      {counter}
+      <Navbar />
+      <Heading />
+      <About />
+      <Projects />
+      <footer>
+        <MdCopyright />
+        Ken Steckler 2022
+      </footer>
     </div>
   );
 };

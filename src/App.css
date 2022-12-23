@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222222;
+  color: #e3e3e3;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 69px;
+}
+
+button {
+  margin: 7px;
+  width: 120px;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0044ff;
+  color: #e3e3e3;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #e3e3e3;
+  padding: 0px;
+  color: #222222;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+/* Universal */
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin: 15px;
+}
+
+/* Classes */
+/* Navbar */
+.nav {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: #222222;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+/* Heading */
+.heading {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+/* About Me */
+
+.about {
+  background-color: #e3e3e3;
+  color: #222222;
+  margin: 50px 0 50px 0;
+  padding: 40px 160px 70px 160px;
+}
+
+.container-about {
+  margin-top: 50px;
+  display: flex;
+}
+
+.aboutme-info {
+  width: 50%;
+  letter-spacing: 1.1px;
+}
+
+.about-table {
+  width: 50%;
+}
+
+/* Projects */
+#proj-title {
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  width: 480px;
+  height: 485px;
+  background-color: #e3e3e3;
+  color: #222222;
+  border-radius: 10px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.proj-img {
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github {
+  background-color: rgb(0, 190, 0);
+}
+
+/* Change layout based on window size */
+@media (max-width: 1200px) {
+  .about {
+    padding: 70px 70px 70px 70px;
+  }
+  .container-about {
+    flex-direction: column;
+  }
+  .aboutme-info {
+    width: 100%;
+  }
+  .about-table {
+    width: 100%;
+  }
+  .about-table img {
+    width: 70px;
+  }
+}
