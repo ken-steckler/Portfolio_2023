@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div class="about">
+    <div class="about" id="About">
       <p class="title">About Me</p>
       <div class="container-about">
         <table class="about-table">
           <tr>
             <td>
-              <img src="images/python_logo.png" />
+              <img id="python" src="images/python_logo.png" />
             </td>
             <td>
               <img src="images/javascript_logo.png" />
@@ -22,7 +22,7 @@ const About = () => {
               <img src="images/github_logo.png" />
             </td>
             <td>
-              <img src="images/tailwind_logo.png" />
+              <img id="tailwind" src="images/tailwind_logo.png" />
             </td>
             <td>
               <img src="images/mongodb_logo.png" />

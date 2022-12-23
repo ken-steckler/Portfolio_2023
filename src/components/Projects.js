@@ -3,30 +3,34 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div class="proj">
+    <div class="proj" id="Proj">
       <p class="title" id="proj-title">
         My Projects
       </p>
       <div class="projects">
         <Project
+          technology="EJS, HTML, Bootstrap, Express, MongoDB"
           image="images/giftu_demo.png"
           demo="https://giftu-app.herokuapp.com/"
           git="https://github.com/ken-steckler/wishlist"
         />
         <Project
-          image="images/qrchive_demo.png"
-          demo="https://qrchive-2ce99.web.app/"
-          git="https://github.com/Raptor2k1/QRchive"
+          technology="Python"
+          image="images/hashmap_demo.png"
+          demo="https://github.com/ken-steckler/Hashmap-Implementation"
+          git="https://github.com/ken-steckler/Hashmap-Implementation"
         />
         <Project
-          image=""
-          demo=""
+          technology="Swift, XCode"
+          image="images/fuud_demo.png"
+          demo="https://github.com/ken-steckler/restaurant"
           git="https://github.com/ken-steckler/restaurant"
         />
         <Project
-          image="images/spotme_demo.png"
-          demo=""
-          git="https://github.com/ken-steckler/spotme"
+          technology="Next.JS, TailwindCSS, Firestore"
+          image="images/noteery_demo.png"
+          demo="https://noteery.netlify.app/"
+          git="https://github.com/ken-steckler/noteapp"
         />
       </div>
     </div>

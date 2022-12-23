@@ -30,8 +30,11 @@ h1 {
   font-size: 69px;
 }
 
-button {
+h3 {
   margin: 7px;
+}
+
+button {
   width: 120px;
   height: 35px;
   border-radius: 4px;
@@ -53,17 +56,24 @@ footer {
 }
 
 img {
+  width: 90px;
+}
+
+td {
+  text-align: center;
   width: 100px;
 }
+
 
 /* Universal */
 .title {
   text-align: center;
   font-size: 36px;
-  margin: 15px;
+  margin: 25px;
 }
 
 /* Classes */
+
 /* Navbar */
 .nav {
   width: 100%;
@@ -110,9 +120,11 @@ img {
   margin-bottom: 90px;
   text-align: center;
 }
+.resume-btn {
+  margin-top: 20px;
+}
 
 /* About Me */
-
 .about {
   background-color: #e3e3e3;
   color: #222222;
@@ -123,16 +135,29 @@ img {
 .container-about {
   margin-top: 50px;
   display: flex;
+  max-width: 1000px;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutme-info {
   width: 50%;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.7px;
 }
 
 .about-table {
   width: 50%;
 }
+
+#tailwind {
+  width: 150px;
+}
+
+#python {
+  width: 150px;
+}
+
 
 /* Projects */
 #proj-title {
@@ -148,19 +173,25 @@ img {
 }
 
 .card {
-  width: 480px;
-  height: 485px;
+  width: 380px;
+  height: 405px;
   background-color: #e3e3e3;
   color: #222222;
-  border-radius: 10px;
+  border-radius: 20px;
+  padding-top: 30px;
+  margin: 10px;
 }
-
 .container {
   padding: 10px;
 }
 
 .proj-img {
+  height: 160px;
   width: 100%;
+}
+
+.proj-form {
+  margin: 10px;
 }
 
 .description {
@@ -173,6 +204,21 @@ img {
   background-color: rgb(0, 190, 0);
 }
 
+/* Contact */
+.contact {
+  margin-top: 40px;
+  height: 300px;
+  padding: 40px 0;
+}
+.icons {
+  align-items: center;
+  font-size: 50px;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* Change layout based on window size */
 @media (max-width: 1200px) {
   .about {
@@ -182,12 +228,18 @@ img {
     flex-direction: column;
   }
   .aboutme-info {
+    text-align: center;
     width: 100%;
+    margin-top: 10px;
   }
   .about-table {
     width: 100%;
   }
   .about-table img {
     width: 70px;
+  }
+
+  #python {
+    width: 95px;
   }
 }

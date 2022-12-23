@@ -5,7 +5,7 @@ const Header = () => {
     <div class="heading">
       <h1>Ken Steckler</h1>
       <p>Software Enthusiast || Fullstack Developer</p>
-      <button>
+      <button class="resume-btn">
         <a href="resources/resume.pdf" download="resume.pdf">
           Resume
         </a>
