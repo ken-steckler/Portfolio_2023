@@ -9,10 +9,10 @@ const Projects = () => {
       </p>
       <div class="projects">
         <Project
-          technology="EJS, HTML, Bootstrap, Express, MongoDB"
-          image="images/giftu_demo.png"
-          demo="https://giftu-app.herokuapp.com/"
-          git="https://github.com/ken-steckler/wishlist"
+          technology="Python"
+          image="images/duplicatechecker.png"
+          demo="https://github.com/ken-steckler/duplicate-patient-checker"
+          git="https://github.com/ken-steckler/duplicate-patient-checker"
         />
         <Project
           technology="Python"
