@@ -31,11 +31,16 @@ const About = () => {
         </table>
 
         <div class="aboutme-info">
-          I am a software engineer with a passion for building programs. I am
-          also pursuing a Computer Science degree at OSU. In 2020, I started
-          building programs with Python and since then have branched out to
-          learning other technologies and programming languages such as
-          JavaScript/TypeScript, React, Express, databases, and more. <br />
+          I am a software engineer with a passion for building programs. My
+          journey began in 2020 with Python and since then I have branched out
+          to learning other technologies and programming languages such as
+          JavaScript/TypeScript, React, SQL, Express, databases, and more.
+          <br />
+          <br />
+          As someone who is passionate about the field, I decided to pursue a
+          Computer Science degree at OSU to build a stronger foundation of
+          concepts and am expected to graduate in 2025.
+          <br />
           <br />
           My latest achievement is winning first place in a collaborative team
           during CodePath’s 2022 Mobile Development Hackathon, where I got to
@@ -43,8 +48,8 @@ const About = () => {
           My passion in software engineering is driven by my desire to be
           curious and excited about learning new technologies and tackling
           challenging problems. <br /> <br />
-          Looking ahead, I'm interested in learning more about AI and machine
-          learning. My other interests are photography, exercising and reading.
+          Looking ahead, I'm interested in learning more about data engineering.
+          My other interests are photography, exercising and reading.
         </div>
       </div>
     </div>
